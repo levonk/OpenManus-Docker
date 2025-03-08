@@ -18,9 +18,9 @@ OpenManus Dockerfile and Docker Compose configuration.
   ```
 
 ### 2. 运行开发版本
-- 修改 `docker-compose.yml` 中的 `command` 为：
+- 修改 `.env` 中的 `OPENMANUS_ENTRY` 为：
   ```yaml
-  command: ["python", "run_flow.py"]
+  OPENMANUS_ENTRY=run_flow.py
   ```
 - 重新运行：
   ```bash
